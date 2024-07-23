@@ -7,5 +7,7 @@ def insertion(l):
         temp = l[i]
         l[i] = l[small_index]
         l[j] = temp
+    return l
 
-        
+l = [1,3,2,4,9]
+print(insertion(l))
